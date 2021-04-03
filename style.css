@@ -55,6 +55,7 @@ td {
     text-align: left;
     position: absolute;
     padding-left: 10px;
+    inline-size: 50%;
 }
 .price {
     text-align: right;
