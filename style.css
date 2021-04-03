@@ -17,6 +17,7 @@ body {
 #title {
     font-size: 60px;
     text-align: center;
+    margin-bottom: 0px;
     font-family: 'Amarela Stencil Two'
 }
 
@@ -40,8 +41,10 @@ table {
     border-radius: 50%;
     max-width: 17%;
     max-height: 17%;
-    margin: 40px;
-    position: absolute;
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 2px 2px 4px #000000;
 }
 
@@ -59,6 +62,7 @@ table {
 
 .imagetd {
     padding: 0px;
+    padding-left: 1%;
     width: 50px;
     height: 50px;
     overflow: auto;
@@ -67,13 +71,12 @@ table {
 .name {
     text-align: left;
     position: absolute;
-    padding-left: 10px;
+    padding-left: 15px;
     inline-size: 50%;
 }
 .price {
     text-align: right;
-    flex: 1;
-    padding-right: 3%;
+    padding-right: 1%;
 }
 
 .subsection {
