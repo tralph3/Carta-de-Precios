@@ -1,0 +1,63 @@
+body {
+    background-image: url("img/background.jpg");
+}
+
+@font-face {
+    font-family: 'Amarela Stencil Two';
+    src: url("fonts/amarela_stencil_two.otf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/montserrat.ttf")
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Amarela Stencil Two'
+}
+
+.items {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Montserrat";
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 30px;
+}
+
+.image {
+    max-width: 50px;
+    max-height: 50px;
+    padding: 1px;
+    border-radius: 20%;
+}
+
+.imagetd {
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    overflow: auto;
+}
+
+.name {
+    text-align: left;
+    position: absolute;
+    padding-left: 10px;
+}
+.price {
+    text-align: right;
+    position: absolute;
+    padding-right: 3%;
+    left: 0px;
+    right: 0px;
+}
