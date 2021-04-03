@@ -14,7 +14,7 @@ body {
     src: url("fonts/montserrat.ttf")
 }
 
-.title {
+#title {
     font-size: 60px;
     text-align: center;
     font-family: 'Amarela Stencil Two'
@@ -34,6 +34,15 @@ td {
 
 table {
     width: 100%;
+}
+
+#logo {
+    border-radius: 50%;
+    max-width: 17%;
+    max-height: 17%;
+    margin: 40px;
+    position: absolute;
+    box-shadow: 2px 2px 4px #000000;
 }
 
 .subtitle {
