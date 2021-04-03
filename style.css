@@ -21,7 +21,7 @@ body {
 }
 
 .items {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     padding: 10px;
     font-family: "Montserrat";
@@ -30,6 +30,10 @@ body {
 td {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
 }
 
 .subtitle {
@@ -59,8 +63,13 @@ td {
 }
 .price {
     text-align: right;
-    position: absolute;
+    flex: 1;
     padding-right: 3%;
-    left: 0px;
-    right: 0px;
+}
+
+.subsection {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
