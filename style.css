@@ -48,6 +48,10 @@ table {
     box-shadow: 2px 2px 4px #000000;
 }
 
+img {
+    box-shadow: 1px 1px 1px #000000;
+}
+
 .subtitle {
     text-align: center;
     font-size: 30px;
@@ -70,7 +74,6 @@ table {
 
 .name {
     text-align: left;
-    position: absolute;
     padding-left: 15px;
     inline-size: 50%;
 }
