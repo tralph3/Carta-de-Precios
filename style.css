@@ -49,7 +49,7 @@ table {
 }
 
 img {
-    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
 }
 
 .subtitle {
@@ -76,10 +76,12 @@ img {
     text-align: left;
     padding-left: 15px;
     inline-size: 50%;
+    vertical-align: top;
 }
 .price {
     text-align: right;
     padding-right: 1%;
+    vertical-align: top;
 }
 
 .subsection {
